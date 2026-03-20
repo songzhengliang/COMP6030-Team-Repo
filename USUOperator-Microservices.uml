@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_13eL0CRHEfGDNO27NdZ-wA" name="USU-Operator">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_1-uqYCRHEfGDNO27NdZ-wA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_yvTEgCRIEfGDNO27NdZ-wA" name="OperatorWebUI">
+    <packagedElement xmi:type="uml:Usage" xmi:id="_RCICcCRMEfGe-IXPcVIR2g" client="_yvTEgCRIEfGDNO27NdZ-wA" supplier="_Q32zgCRJEfGDNO27NdZ-wA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ehOE0CRMEfGe-IXPcVIR2g" client="_yvTEgCRIEfGDNO27NdZ-wA" supplier="_jG0MYCRLEfGe-IXPcVIR2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_zXiJMCRIEfGDNO27NdZ-wA" name="UnionManagementService">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_9f4x4CRLEfGe-IXPcVIR2g" client="_zXiJMCRIEfGDNO27NdZ-wA" supplier="_Q32zgCRJEfGDNO27NdZ-wA" contract="_Q32zgCRJEfGDNO27NdZ-wA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_0Xr-oCRIEfGDNO27NdZ-wA" name="USUEventManagementService">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_HN2sACRMEfGe-IXPcVIR2g" client="_0Xr-oCRIEfGDNO27NdZ-wA" supplier="_jG0MYCRLEfGe-IXPcVIR2g" contract="_jG0MYCRLEfGe-IXPcVIR2g"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_ZWyAQCRMEfGe-IXPcVIR2g" client="_0Xr-oCRIEfGDNO27NdZ-wA" supplier="_lBnsMCRLEfGe-IXPcVIR2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_3pP2ACRIEfGDNO27NdZ-wA" name="NotificationService">
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_K1lAoCRMEfGe-IXPcVIR2g" client="_3pP2ACRIEfGDNO27NdZ-wA" supplier="_lBnsMCRLEfGe-IXPcVIR2g" contract="_lBnsMCRLEfGe-IXPcVIR2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Q32zgCRJEfGDNO27NdZ-wA" name="IUnionManagement"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_jG0MYCRLEfGe-IXPcVIR2g" name="IEventManagement"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_lBnsMCRLEfGe-IXPcVIR2g" name="INotification"/>
+</uml:Model>
