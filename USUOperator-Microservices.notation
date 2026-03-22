@@ -528,7 +528,7 @@
     </children>
     <styles xmi:type="notation:FontStyle" xmi:id="_EjMK4SYgEfGjWNPk5n_JUw"/>
     <element xmi:type="uml:InterfaceRealization" href="USUOperator-Microservices.uml#_EjIggCYgEfGjWNPk5n_JUw"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EjMK4iYgEfGjWNPk5n_JUw" points="[1457, 237, -643984, -643984]$[1408, 291, -643984, -643984]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EjMK4iYgEfGjWNPk5n_JUw" points="[1464, 181, -643984, -643984]$[1488, 181, -643984, -643984]$[1488, 181, -643984, -643984]$[1488, 243, -643984, -643984]"/>
     <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EjUtwCYgEfGjWNPk5n_JUw" id="(0.2981366459627329,1.0)"/>
     <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EjUtwSYgEfGjWNPk5n_JUw" id="(0.7,0.0)"/>
   </edges>
