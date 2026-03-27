@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Vq4aMCnGEfGlAMAQBLhByA" name="Use case diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_VtNVcCnGEfGlAMAQBLhByA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_uA14cCnGEfGlAMAQBLhByA" name="USU-Operator Subsystem" useCase="_L913sCnHEfGlAMAQBLhByA _on_8wCnMEfGlAMAQBLhByA _rUwd8CnMEfGlAMAQBLhByA _tCt0kCnMEfGlAMAQBLhByA _uhSrYCnMEfGlAMAQBLhByA _QXDE4CnNEfGlAMAQBLhByA _bcP3sCnNEfGlAMAQBLhByA _c6y5UCnNEfGlAMAQBLhByA _jsUQcCnNEfGlAMAQBLhByA _lRuvECnNEfGlAMAQBLhByA _ylpcMCnNEfGlAMAQBLhByA _z0wToCnNEfGlAMAQBLhByA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_L913sCnHEfGlAMAQBLhByA" name="Approve USU Membership" subject="_uA14cCnGEfGlAMAQBLhByA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="__1x1gCnNEfGlAMAQBLhByA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_on_8wCnMEfGlAMAQBLhByA" name="Approve Union Data Updates" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_rUwd8CnMEfGlAMAQBLhByA" name="Approve Union Termination" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tCt0kCnMEfGlAMAQBLhByA" name="Create New USU Event" subject="_uA14cCnGEfGlAMAQBLhByA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_8XfJsCnNEfGlAMAQBLhByA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uhSrYCnMEfGlAMAQBLhByA" name="Update Event Progress" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_QXDE4CnNEfGlAMAQBLhByA" name="Review Membership Application" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_bcP3sCnNEfGlAMAQBLhByA" name="Deactivate Union Account" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_c6y5UCnNEfGlAMAQBLhByA" name="Remove Union Data" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jsUQcCnNEfGlAMAQBLhByA" name="Make Event Announcement" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_lRuvECnNEfGlAMAQBLhByA" name="Manage Portal Website" subject="_uA14cCnGEfGlAMAQBLhByA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ylpcMCnNEfGlAMAQBLhByA" name="Set Up Ticket Registration" subject="_uA14cCnGEfGlAMAQBLhByA">
+      <extend xmi:type="uml:Extend" xmi:id="_8XeioCnNEfGlAMAQBLhByA" extendedCase="_tCt0kCnMEfGlAMAQBLhByA" extensionLocation="_8XfJsCnNEfGlAMAQBLhByA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_z0wToCnNEfGlAMAQBLhByA" name="Host Union Website" subject="_uA14cCnGEfGlAMAQBLhByA">
+      <extend xmi:type="uml:Extend" xmi:id="__1xOcCnNEfGlAMAQBLhByA" extendedCase="_L913sCnHEfGlAMAQBLhByA" extensionLocation="__1x1gCnNEfGlAMAQBLhByA"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_6RIhMCnNEfGlAMAQBLhByA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_JSLisCnHEfGlAMAQBLhByA" name="USU Operator"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zHYFsCnMEfGlAMAQBLhByA" memberEnd="_zHah8CnMEfGlAMAQBLhByA _zHdlQCnMEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zHYswCnMEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zHYswSnMEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zHah8CnMEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_zHYFsCnMEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zHdlQCnMEfGlAMAQBLhByA" name="approve usu membership" type="_uA14cCnGEfGlAMAQBLhByA" association="_zHYFsCnMEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zrYxsCnMEfGlAMAQBLhByA" memberEnd="_zrZYwinMEfGlAMAQBLhByA _zrZYwynMEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zrZYwCnMEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zrZYwSnMEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zrZYwinMEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_zrYxsCnMEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_zrZYwynMEfGlAMAQBLhByA" name="approve union data updates" type="_on_8wCnMEfGlAMAQBLhByA" association="_zrYxsCnMEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0DlPQCnMEfGlAMAQBLhByA" memberEnd="_0Dl2USnMEfGlAMAQBLhByA _0Dl2UinMEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0DlPQSnMEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0Dl2UCnMEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0Dl2USnMEfGlAMAQBLhByA" type="_JSLisCnHEfGlAMAQBLhByA" association="_0DlPQCnMEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_0Dl2UinMEfGlAMAQBLhByA" name="approve union termination" type="_rUwd8CnMEfGlAMAQBLhByA" association="_0DlPQCnMEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1SpqcCnMEfGlAMAQBLhByA" memberEnd="_1SqRginMEfGlAMAQBLhByA _1SqRgynMEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1SqRgCnMEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1SqRgSnMEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1SqRginMEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_1SpqcCnMEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_1SqRgynMEfGlAMAQBLhByA" name="create new usu event" type="_tCt0kCnMEfGlAMAQBLhByA" association="_1SpqcCnMEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4fQwYCnMEfGlAMAQBLhByA" memberEnd="_4fRXcinMEfGlAMAQBLhByA _4fRXcynMEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fRXcCnMEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fRXcSnMEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4fRXcinMEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_4fQwYCnMEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4fRXcynMEfGlAMAQBLhByA" name="update event progress" type="_uhSrYCnMEfGlAMAQBLhByA" association="_4fQwYCnMEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pszzQCnNEfGlAMAQBLhByA" memberEnd="_ps0aUinNEfGlAMAQBLhByA _ps0aUynNEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ps0aUCnNEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ps0aUSnNEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ps0aUinNEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_pszzQCnNEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ps0aUynNEfGlAMAQBLhByA" name="review membership application" type="_QXDE4CnNEfGlAMAQBLhByA" association="_pszzQCnNEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r4SMUCnNEfGlAMAQBLhByA" memberEnd="_r4SzYinNEfGlAMAQBLhByA _r4SzYynNEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r4SzYCnNEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r4SzYSnNEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r4SzYinNEfGlAMAQBLhByA" type="_JSLisCnHEfGlAMAQBLhByA" association="_r4SMUCnNEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r4SzYynNEfGlAMAQBLhByA" name="deactivate union account" type="_bcP3sCnNEfGlAMAQBLhByA" association="_r4SMUCnNEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_s3AeYCnNEfGlAMAQBLhByA" memberEnd="_s3BFcinNEfGlAMAQBLhByA _s3BFcynNEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s3BFcCnNEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s3BFcSnNEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s3BFcinNEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_s3AeYCnNEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_s3BFcynNEfGlAMAQBLhByA" name="remove union data" type="_c6y5UCnNEfGlAMAQBLhByA" association="_s3AeYCnNEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tbRpECnNEfGlAMAQBLhByA" memberEnd="_tbSQIinNEfGlAMAQBLhByA _tbSQIynNEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tbSQICnNEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tbSQISnNEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tbSQIinNEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_tbRpECnNEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tbSQIynNEfGlAMAQBLhByA" name="make event announcement" type="_jsUQcCnNEfGlAMAQBLhByA" association="_tbRpECnNEfGlAMAQBLhByA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_t-uUYCnNEfGlAMAQBLhByA" memberEnd="_t-u7cinNEfGlAMAQBLhByA _t-u7cynNEfGlAMAQBLhByA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t-u7cCnNEfGlAMAQBLhByA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t-u7cSnNEfGlAMAQBLhByA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t-u7cinNEfGlAMAQBLhByA" name="usu operator" type="_JSLisCnHEfGlAMAQBLhByA" association="_t-uUYCnNEfGlAMAQBLhByA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_t-u7cynNEfGlAMAQBLhByA" name="manage portal website" type="_lRuvECnNEfGlAMAQBLhByA" association="_t-uUYCnNEfGlAMAQBLhByA"/>
+  </packagedElement>
+</uml:Model>
