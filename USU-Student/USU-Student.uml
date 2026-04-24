@@ -125,9 +125,6 @@
       </node>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_MsJ0QCPqEfGnG4Fh4H8BbA" name="USU-Student Subsystem">
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_oi-SoCmnEfG-k8vqsJqtWQ" name="IIdentityService"/>
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_uNu2ACmnEfG-k8vqsJqtWQ" name="INotificationService"/>
-      <nestedClassifier xmi:type="uml:Interface" xmi:id="_uYEdwCmnEfG-k8vqsJqtWQ" name="IMediaService"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_THT50CPqEfGnG4Fh4H8BbA" name="Student Device">
         <packagedElement xmi:type="uml:Component" xmi:id="_lvRTcCPqEfGnG4Fh4H8BbA" name="Session Manager">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_cQ9R8CmoEfG-k8vqsJqtWQ" name="Port1" aggregation="composite"/>
@@ -144,35 +141,22 @@
         <nestedClassifier xmi:type="uml:Interface" xmi:id="_qwwDUClbEfG-k8vqsJqtWQ" name="IEventParticipationService"/>
         <nestedClassifier xmi:type="uml:Interface" xmi:id="_TD9MUCmnEfG-k8vqsJqtWQ" name="IEventFeedService"/>
         <nestedClassifier xmi:type="uml:Interface" xmi:id="_f1Q7oCmnEfG-k8vqsJqtWQ" name="IStudentPreferenceService"/>
-        <packagedElement xmi:type="uml:Component" xmi:id="_4wL_oCPqEfGnG4Fh4H8BbA" name="Event Feed Service">
-          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_dkqK8CmnEfG-k8vqsJqtWQ" client="_4wL_oCPqEfGnG4Fh4H8BbA" supplier="_TD9MUCmnEfG-k8vqsJqtWQ" contract="_TD9MUCmnEfG-k8vqsJqtWQ"/>
-          <packagedElement xmi:type="uml:Usage" xmi:id="_HtAa0CmqEfG-k8vqsJqtWQ" client="_4wL_oCPqEfGnG4Fh4H8BbA" supplier="_uYEdwCmnEfG-k8vqsJqtWQ"/>
-        </packagedElement>
+        <nestedClassifier xmi:type="uml:Interface" xmi:id="_oi-SoCmnEfG-k8vqsJqtWQ" name="IIdentityService"/>
+        <nestedClassifier xmi:type="uml:Interface" xmi:id="_uNu2ACmnEfG-k8vqsJqtWQ" name="INotificationService"/>
+        <nestedClassifier xmi:type="uml:Interface" xmi:id="_uYEdwCmnEfG-k8vqsJqtWQ" name="IMediaService"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_4wL_oCPqEfGnG4Fh4H8BbA" name="Event Feed Service"/>
         <packagedElement xmi:type="uml:Component" xmi:id="_5RCC4CPqEfGnG4Fh4H8BbA" name="Event Participation Service">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_TwnMECmpEfG-k8vqsJqtWQ" name="Port2" aggregation="composite"/>
-          <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MgsToCmnEfG-k8vqsJqtWQ" client="_5RCC4CPqEfGnG4Fh4H8BbA" supplier="_qwwDUClbEfG-k8vqsJqtWQ" contract="_qwwDUClbEfG-k8vqsJqtWQ"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_AouCICPrEfGnG4Fh4H8BbA" name="Identity Service">
         <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_3zsqsCmnEfG-k8vqsJqtWQ" client="_AouCICPrEfGnG4Fh4H8BbA" supplier="_oi-SoCmnEfG-k8vqsJqtWQ" contract="_oi-SoCmnEfG-k8vqsJqtWQ"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_BLf_ECPrEfGnG4Fh4H8BbA" name="Notification Service">
-        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_3RJ-UCmnEfG-k8vqsJqtWQ" client="_BLf_ECPrEfGnG4Fh4H8BbA" supplier="_uNu2ACmnEfG-k8vqsJqtWQ" contract="_uNu2ACmnEfG-k8vqsJqtWQ"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Component" xmi:id="_B-ilkCPrEfGnG4Fh4H8BbA" name="Media Service">
-        <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2dGEICmnEfG-k8vqsJqtWQ" client="_B-ilkCPrEfGnG4Fh4H8BbA" supplier="_uYEdwCmnEfG-k8vqsJqtWQ" contract="_uYEdwCmnEfG-k8vqsJqtWQ"/>
-      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_BLf_ECPrEfGnG4Fh4H8BbA" name="Notification Service"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_B-ilkCPrEfGnG4Fh4H8BbA" name="Media Service"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Component" xmi:id="_63qpgCPqEfGnG4Fh4H8BbA" name="Student Preference Service">
-      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_lVaxgCmnEfG-k8vqsJqtWQ" client="_63qpgCPqEfGnG4Fh4H8BbA" supplier="_f1Q7oCmnEfG-k8vqsJqtWQ" contract="_f1Q7oCmnEfG-k8vqsJqtWQ"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_63qpgCPqEfGnG4Fh4H8BbA" name="Student Preference Service"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_afgiECleEfG-k8vqsJqtWQ" name="Interface16"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_7eTewCmoEfG-k8vqsJqtWQ" client="_aWAoMCmoEfG-k8vqsJqtWQ" supplier="_qwwDUClbEfG-k8vqsJqtWQ"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_EiifYCmpEfG-k8vqsJqtWQ" client="_cQ9R8CmoEfG-k8vqsJqtWQ" supplier="_oi-SoCmnEfG-k8vqsJqtWQ"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_V3qYICmpEfG-k8vqsJqtWQ" client="_TwnMECmpEfG-k8vqsJqtWQ" supplier="_uNu2ACmnEfG-k8vqsJqtWQ"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_BySv4CmqEfG-k8vqsJqtWQ" client="_7eTewCmoEfG-k8vqsJqtWQ" supplier="_TD9MUCmnEfG-k8vqsJqtWQ"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_ERxqECmqEfG-k8vqsJqtWQ" client="_7eTewCmoEfG-k8vqsJqtWQ" supplier="_f1Q7oCmnEfG-k8vqsJqtWQ"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_QFX-gCmrEfG-k8vqsJqtWQ" client="_NHvIsCmrEfG-k8vqsJqtWQ" supplier="_uNu2ACmnEfG-k8vqsJqtWQ"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4Yr1cClXEfGMjL2jeZZ9jw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Yvf0ClXEfGMjL2jeZZ9jw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
