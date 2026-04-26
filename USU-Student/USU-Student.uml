@@ -4,22 +4,29 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_zn-rUAjxEfGixbX4L4piHg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Component" xmi:id="_qE2SgBNVEfG_1MRx_20wZg" name="USU-Student - Use Case Diagram" useCase="_S9p4ABNWEfG_1MRx_20wZg _pSjdcBNWEfG_1MRx_20wZg _pkgJEBNWEfG_1MRx_20wZg _pyAZkBNWEfG_1MRx_20wZg _qAoEYBNWEfG_1MRx_20wZg _qOfhQBNWEfG_1MRx_20wZg _1tPcgBNWEfG_1MRx_20wZg _l4-ecBYHEfG_1MRx_20wZg">
+    <packagedElement xmi:type="uml:Component" xmi:id="_qE2SgBNVEfG_1MRx_20wZg" name="USU-Student Subsystem" useCase="_S9p4ABNWEfG_1MRx_20wZg _pSjdcBNWEfG_1MRx_20wZg _pkgJEBNWEfG_1MRx_20wZg _pyAZkBNWEfG_1MRx_20wZg _qAoEYBNWEfG_1MRx_20wZg _qOfhQBNWEfG_1MRx_20wZg _1tPcgBNWEfG_1MRx_20wZg _l4-ecBYHEfG_1MRx_20wZg _smfhwEFpEfGtNIcwgSOAIg">
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_S9p4ABNWEfG_1MRx_20wZg" name="Register account" subject="_qE2SgBNVEfG_1MRx_20wZg"/>
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mN4LgBNWEfG_1MRx_20wZg" name="CopyOf_Register account_1"/>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pSjdcBNWEfG_1MRx_20wZg" name="Manage profile" subject="_qE2SgBNVEfG_1MRx_20wZg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pSjdcBNWEfG_1MRx_20wZg" name="Manage profile" subject="_qE2SgBNVEfG_1MRx_20wZg">
+        <include xmi:type="uml:Include" xmi:id="_HDfIgEFrEfGtNIcwgSOAIg" addition="_l4-ecBYHEfG_1MRx_20wZg"/>
+      </ownedUseCase>
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pkgJEBNWEfG_1MRx_20wZg" name="View event details" subject="_qE2SgBNVEfG_1MRx_20wZg">
         <extend xmi:type="uml:Extend" xmi:id="_1RpRkBYHEfG_1MRx_20wZg" extendedCase="_qOfhQBNWEfG_1MRx_20wZg" extensionLocation="_1Rrt0BYHEfG_1MRx_20wZg"/>
       </ownedUseCase>
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pyAZkBNWEfG_1MRx_20wZg" name="Register for event" subject="_qE2SgBNVEfG_1MRx_20wZg">
         <include xmi:type="uml:Include" xmi:id="_r1uJsBYHEfG_1MRx_20wZg" addition="_l4-ecBYHEfG_1MRx_20wZg"/>
       </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qAoEYBNWEfG_1MRx_20wZg" name="Cancel event registration" subject="_qE2SgBNVEfG_1MRx_20wZg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qAoEYBNWEfG_1MRx_20wZg" name="Cancel event registration" subject="_qE2SgBNVEfG_1MRx_20wZg">
+        <include xmi:type="uml:Include" xmi:id="_ISIiYEFqEfGtNIcwgSOAIg" addition="_l4-ecBYHEfG_1MRx_20wZg"/>
+      </ownedUseCase>
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qOfhQBNWEfG_1MRx_20wZg" name="Browse events" subject="_qE2SgBNVEfG_1MRx_20wZg">
         <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_1Rrt0BYHEfG_1MRx_20wZg" name="ExtensionPoint1"/>
       </ownedUseCase>
-      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1tPcgBNWEfG_1MRx_20wZg" name="View my registrations" subject="_qE2SgBNVEfG_1MRx_20wZg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1tPcgBNWEfG_1MRx_20wZg" name="View my registrations" subject="_qE2SgBNVEfG_1MRx_20wZg">
+        <include xmi:type="uml:Include" xmi:id="_K2f8kEFqEfGtNIcwgSOAIg" addition="_l4-ecBYHEfG_1MRx_20wZg"/>
+      </ownedUseCase>
       <ownedUseCase xmi:type="uml:UseCase" xmi:id="_l4-ecBYHEfG_1MRx_20wZg" name="Log in" subject="_qE2SgBNVEfG_1MRx_20wZg"/>
+      <ownedUseCase xmi:type="uml:UseCase" xmi:id="_smfhwEFpEfGtNIcwgSOAIg" name="Receive Event Notifications" subject="_qE2SgBNVEfG_1MRx_20wZg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_NbjhYBNWEfG_1MRx_20wZg" name="Student"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_5xFscBNWEfG_1MRx_20wZg" memberEnd="_5xIIsBNWEfG_1MRx_20wZg _5xJW0BNWEfG_1MRx_20wZg">
@@ -157,6 +164,13 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_63qpgCPqEfGnG4Fh4H8BbA" name="Student Preference Service"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_afgiECleEfG-k8vqsJqtWQ" name="Interface16"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8i6iMEFpEfGtNIcwgSOAIg" memberEnd="_8i-zoEFpEfGtNIcwgSOAIg _8i-zoUFpEfGtNIcwgSOAIg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8i-MkEFpEfGtNIcwgSOAIg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8i-MkUFpEfGtNIcwgSOAIg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8i-zoEFpEfGtNIcwgSOAIg" name="receive event notifications" type="_smfhwEFpEfGtNIcwgSOAIg" association="_8i6iMEFpEfGtNIcwgSOAIg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8i-zoUFpEfGtNIcwgSOAIg" type="_NbjhYBNWEfG_1MRx_20wZg" association="_8i6iMEFpEfGtNIcwgSOAIg"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4Yr1cClXEfGMjL2jeZZ9jw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Yvf0ClXEfGMjL2jeZZ9jw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
