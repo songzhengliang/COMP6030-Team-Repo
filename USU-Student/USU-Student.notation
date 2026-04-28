@@ -3234,4 +3234,12 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZZcr6EMbEfGgDfYbgfpNqQ"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_eqS2QEMiEfGgDfYbgfpNqQ" type="PapyrusUMLClassDiagram" name="Event Participation Service Class Diagram" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_eqS2QUMiEfGgDfYbgfpNqQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_eqS2QkMiEfGgDfYbgfpNqQ"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_eqS2Q0MiEfGgDfYbgfpNqQ" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+      <owner xmi:type="uml:Model" href="USU-Student.uml#_zldi0AjxEfGixbX4L4piHg"/>
+    </styles>
+    <element xmi:type="uml:Model" href="USU-Student.uml#_zldi0AjxEfGixbX4L4piHg"/>
+  </notation:Diagram>
 </xmi:XMI>
