@@ -523,6 +523,16 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_51jMAEM1EfGgDfYbgfpNqQ" name="event" type="_ttrD8EMkEfGgDfYbgfpNqQ" association="_51gIsEM1EfGgDfYbgfpNqQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_9pk3QEM1EfGgDfYbgfpNqQ" client="_vEY_QEMkEfGgDfYbgfpNqQ" supplier="_mHhK4EMkEfGgDfYbgfpNqQ"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_aM21EEM3EfGgDfYbgfpNqQ" name="RegisterForEventSequenceBehavior">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_L4RasENvEfG3EugKzDy3Ug" name="Student GUI"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_Qh4qIENvEfG3EugKzDy3Ug" name="Event Registration Manager"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_RHw-YENvEfG3EugKzDy3Ug" name="EventParticipationService"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_RZluMENvEfG3EugKzDy3Ug" name="IIdentityService"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_RqLH4ENvEfG3EugKzDy3Ug" name="IEventFeedService"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_R4HdQENvEfG3EugKzDy3Ug" name="RegistrationRepository"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_SUTC8ENvEfG3EugKzDy3Ug" name="INotificationService"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_s_0qYENvEfG3EugKzDy3Ug" name="Student"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4Yr1cClXEfGMjL2jeZZ9jw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4Yvf0ClXEfGMjL2jeZZ9jw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
