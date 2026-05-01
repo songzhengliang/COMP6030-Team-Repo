@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_DZIAYEVtEfGVd7kWSOZ3vQ" name="Class Diagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Dbpv8EVtEfGVd7kWSOZ3vQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_oX_jEEVxEfGCrvqS349Xiw" name="UnionManagementService">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8VnSokVyEfGCrvqS349Xiw" name="uniondatabase" type="_sopf8EVxEfGCrvqS349Xiw" association="_8VmrkEVyEfGCrvqS349Xiw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-uAGUEVyEfGCrvqS349Xiw" name="LiteralInteger1" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-uAGUUVyEfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="1"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sopf8EVxEfGCrvqS349Xiw" name="UnionDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gvwJ4kVyEfGCrvqS349Xiw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" aggregation="composite" association="_gvvi0EVyEfGCrvqS349Xiw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z8oOcEVyEfGCrvqS349Xiw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z8oOcUVyEfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_geLm0EV0EfGCrvqS349Xiw" name="AddUnion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZKBUEV0EfGCrvqS349Xiw" name="addUnion" type="_yMgxIEVxEfGCrvqS349Xiw">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_vXJmMEV0EfGCrvqS349Xiw" name="OpaqueExpression1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yMgxIEVxEfGCrvqS349Xiw" name="Union"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_gvvi0EVyEfGCrvqS349Xiw" memberEnd="_gvwJ4kVyEfGCrvqS349Xiw _gvwJ5UVyEfGCrvqS349Xiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gvwJ4EVyEfGCrvqS349Xiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gvwJ4UVyEfGCrvqS349Xiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gvwJ5UVyEfGCrvqS349Xiw" name="uniondatabase" type="_sopf8EVxEfGCrvqS349Xiw" association="_gvvi0EVyEfGCrvqS349Xiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8VmrkEVyEfGCrvqS349Xiw" name="access" memberEnd="_8VnSokVyEfGCrvqS349Xiw _8Vn5sUVyEfGCrvqS349Xiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8VnSoEVyEfGCrvqS349Xiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8VnSoUVyEfGCrvqS349Xiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_8Vn5sUVyEfGCrvqS349Xiw" name="unionmanagementservice" type="_oX_jEEVxEfGCrvqS349Xiw" association="_8VmrkEVyEfGCrvqS349Xiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LBsskEVzEfGCrvqS349Xiw" name="CheckPermission"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LbynkEVzEfGCrvqS349Xiw" name="ApproveUSUMembership"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LoEwEEVzEfGCrvqS349Xiw" name="ApproveUSUMembershipTermination"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LzZ2UEVzEfGCrvqS349Xiw" name="ApproveEditUnionData"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_ULaqIEVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LbynkEVzEfGCrvqS349Xiw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_VUKa4EVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LoEwEEVzEfGCrvqS349Xiw"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_WfSKMEVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LzZ2UEVzEfGCrvqS349Xiw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_hzGn0EVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LBsskEVzEfGCrvqS349Xiw"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_nkFvAEVzEfGCrvqS349Xiw" name="UnionMember">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_II_kokV0EfGCrvqS349Xiw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" association="_II-9kEV0EfGCrvqS349Xiw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I4JJoEV0EfGCrvqS349Xiw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I4JwsEV0EfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_o89mcEVzEfGCrvqS349Xiw" name="UnionOfficer">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ELChUkV0EfGCrvqS349Xiw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" association="_ELB6QEV0EfGCrvqS349Xiw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FBSz4EV0EfGCrvqS349Xiw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FBSz4UV0EfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ELB6QEV0EfGCrvqS349Xiw" memberEnd="_ELChUkV0EfGCrvqS349Xiw _ELDIYkV0EfGCrvqS349Xiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ELChUEV0EfGCrvqS349Xiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ELChUUV0EfGCrvqS349Xiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ELDIYkV0EfGCrvqS349Xiw" name="unionofficer" type="_o89mcEVzEfGCrvqS349Xiw" association="_ELB6QEV0EfGCrvqS349Xiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_II-9kEV0EfGCrvqS349Xiw" memberEnd="_II_kokV0EfGCrvqS349Xiw _IJALskV0EfGCrvqS349Xiw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_II_koEV0EfGCrvqS349Xiw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_II_koUV0EfGCrvqS349Xiw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_IJALskV0EfGCrvqS349Xiw" name="unionmember" type="_nkFvAEVzEfGCrvqS349Xiw" association="_II-9kEV0EfGCrvqS349Xiw"/>
+  </packagedElement>
+</uml:Model>
