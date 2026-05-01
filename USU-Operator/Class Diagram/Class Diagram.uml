@@ -4,28 +4,48 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Class" xmi:id="_oX_jEEVxEfGCrvqS349Xiw" name="UnionManagementService">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_8VnSokVyEfGCrvqS349Xiw" name="uniondatabase" type="_sopf8EVxEfGCrvqS349Xiw" association="_8VmrkEVyEfGCrvqS349Xiw">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8VnSokVyEfGCrvqS349Xiw" name="uniondatabase" type="_gpRxoEV2EfGV-efqbksQgw" association="_8VmrkEVyEfGCrvqS349Xiw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-uAGUEVyEfGCrvqS349Xiw" name="LiteralInteger1" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-uAGUUVyEfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_sopf8EVxEfGCrvqS349Xiw" name="UnionDatabase">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_gvwJ4kVyEfGCrvqS349Xiw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" aggregation="composite" association="_gvvi0EVyEfGCrvqS349Xiw">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z8oOcEVyEfGCrvqS349Xiw" name="LiteralInteger1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z8oOcUVyEfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yMgxIEVxEfGCrvqS349Xiw" name="Union">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_dNPoQEV5EfGV-efqbksQgw" name="userID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
     </ownedAttribute>
-    <ownedOperation xmi:type="uml:Operation" xmi:id="_geLm0EV0EfGCrvqS349Xiw" name="AddUnion">
-      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hZKBUEV0EfGCrvqS349Xiw" name="addUnion" type="_yMgxIEVxEfGCrvqS349Xiw">
-        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_vXJmMEV0EfGCrvqS349Xiw" name="OpaqueExpression1"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sVZTIEV5EfGV-efqbksQgw" name="unionID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vf0AsEV5EfGV-efqbksQgw" name="name">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5CkJUEV5EfGV-efqbksQgw" name="unionWebsite">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Y5fCIEV7EfGV-efqbksQgw" name="unionEvents">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByteArray"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_eaiCIEV2EfGV-efqbksQgw" name="setUnion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_BYQB4EV6EfGV-efqbksQgw" name="userID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_DuUhYEV6EfGV-efqbksQgw" name="unionID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_JQ1uwEV6EfGV-efqbksQgw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LpK4EEV6EfGV-efqbksQgw" name="unionWebsite">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedParameter>
     </ownedOperation>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_9EeDEEV6EfGV-efqbksQgw" name="membershipApplication"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_yMgxIEVxEfGCrvqS349Xiw" name="Union"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_gvvi0EVyEfGCrvqS349Xiw" memberEnd="_gvwJ4kVyEfGCrvqS349Xiw _gvwJ5UVyEfGCrvqS349Xiw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gvwJ4EVyEfGCrvqS349Xiw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gvwJ4UVyEfGCrvqS349Xiw" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_gvwJ5UVyEfGCrvqS349Xiw" name="uniondatabase" type="_sopf8EVxEfGCrvqS349Xiw" association="_gvvi0EVyEfGCrvqS349Xiw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_gvwJ5UVyEfGCrvqS349Xiw" name="uniondatabase" type="_gpRxoEV2EfGV-efqbksQgw" association="_gvvi0EVyEfGCrvqS349Xiw"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_8VmrkEVyEfGCrvqS349Xiw" name="access" memberEnd="_8VnSokVyEfGCrvqS349Xiw _8Vn5sUVyEfGCrvqS349Xiw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8VnSoEVyEfGCrvqS349Xiw" source="org.eclipse.papyrus">
@@ -33,10 +53,43 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_8Vn5sUVyEfGCrvqS349Xiw" name="unionmanagementservice" type="_oX_jEEVxEfGCrvqS349Xiw" association="_8VmrkEVyEfGCrvqS349Xiw"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_LBsskEVzEfGCrvqS349Xiw" name="CheckPermission"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_LbynkEVzEfGCrvqS349Xiw" name="ApproveUSUMembership"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_LoEwEEVzEfGCrvqS349Xiw" name="ApproveUSUMembershipTermination"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_LzZ2UEVzEfGCrvqS349Xiw" name="ApproveEditUnionData"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LBsskEVzEfGCrvqS349Xiw" name="CheckPermission">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ShY_AEV4EfGV-efqbksQgw" name="approvalsPermitted">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_OTrzAEV5EfGV-efqbksQgw" name="userID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_Qbo-AEV5EfGV-efqbksQgw" name="LiteralInteger1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LbynkEVzEfGCrvqS349Xiw" name="ApproveUSUMembership">
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_4WKBMEV3EfGV-efqbksQgw" name="membershipApplication"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_i9tc8EV3EfGV-efqbksQgw" name="approveMembership">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_m9z1UEV3EfGV-efqbksQgw" name="application" type="_4WKBMEV3EfGV-efqbksQgw">
+        <defaultValue xmi:type="uml:OpaqueExpression" xmi:id="_wcYokEV3EfGV-efqbksQgw" name="OpaqueExpression1">
+          <language></language>
+          <body>membershipApplication</body>
+        </defaultValue>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LoEwEEVzEfGCrvqS349Xiw" name="ApproveUSUMembershipTermination">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7Mdf8EV3EfGV-efqbksQgw" name="ApproveTermination">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_8Q7NoEV3EfGV-efqbksQgw" name="unionID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_-xbbgEV3EfGV-efqbksQgw" name="LiteralInteger1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_LzZ2UEVzEfGCrvqS349Xiw" name="ApproveEditUnionData">
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_OOrMoEV4EfGV-efqbksQgw" name="membershipApplication"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FK77QEV4EfGV-efqbksQgw" name="editUnion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_GmhIcEV4EfGV-efqbksQgw" name="unionID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_IbpeEEV4EfGV-efqbksQgw" name="LiteralInteger1"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_LUfTcEV4EfGV-efqbksQgw" name="application" type="_OOrMoEV4EfGV-efqbksQgw"/>
+    </ownedOperation>
+  </packagedElement>
   <packagedElement xmi:type="uml:Realization" xmi:id="_ULaqIEVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LbynkEVzEfGCrvqS349Xiw"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_VUKa4EVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LoEwEEVzEfGCrvqS349Xiw"/>
   <packagedElement xmi:type="uml:Realization" xmi:id="_WfSKMEVzEfGCrvqS349Xiw" client="_oX_jEEVxEfGCrvqS349Xiw" supplier="_LzZ2UEVzEfGCrvqS349Xiw"/>
@@ -46,12 +99,42 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I4JJoEV0EfGCrvqS349Xiw" name="LiteralInteger1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I4JwsEV0EfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_J71XEEV7EfGV-efqbksQgw" name="userID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NKfEYEV7EfGV-efqbksQgw" name="userName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Pku5QEV7EfGV-efqbksQgw" name="setID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QKpCsEV7EfGV-efqbksQgw" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_SFoIsEV7EfGV-efqbksQgw" name="setName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_Svb6sEV7EfGV-efqbksQgw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_o89mcEVzEfGCrvqS349Xiw" name="UnionOfficer">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ELChUkV0EfGCrvqS349Xiw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" association="_ELB6QEV0EfGCrvqS349Xiw">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FBSz4EV0EfGCrvqS349Xiw" name="LiteralInteger1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FBSz4UV0EfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
     </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RbgDEEV6EfGV-efqbksQgw" name="userID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_VHz8wEV6EfGV-efqbksQgw" name="officerName"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_al59IEV6EfGV-efqbksQgw" name="setID">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_b61vwEV6EfGV-efqbksQgw" name="ID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_gedr8EV6EfGV-efqbksQgw" name="setName">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_hfiHYEV6EfGV-efqbksQgw" name="name">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_ELB6QEV0EfGCrvqS349Xiw" memberEnd="_ELChUkV0EfGCrvqS349Xiw _ELDIYkV0EfGCrvqS349Xiw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ELChUEV0EfGCrvqS349Xiw" source="org.eclipse.papyrus">
@@ -64,5 +147,39 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_II_koUV0EfGCrvqS349Xiw" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_IJALskV0EfGCrvqS349Xiw" name="unionmember" type="_nkFvAEVzEfGCrvqS349Xiw" association="_II-9kEV0EfGCrvqS349Xiw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_gpRxoEV2EfGV-efqbksQgw" name="UnionDatabase">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_gvwJ4kVyEfGCrvqS349Xiw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" aggregation="composite" association="_gvvi0EVyEfGCrvqS349Xiw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_z8oOcEVyEfGCrvqS349Xiw" name="LiteralInteger1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_z8oOcUVyEfGCrvqS349Xiw" name="LiteralUnlimitedNatural1" value="*"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kogAQEV2EfGV-efqbksQgw" name="addUnion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_YW4oMEV3EfGV-efqbksQgw" name="application" type="_HD_AMEV7EfGV-efqbksQgw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_bH7McEV3EfGV-efqbksQgw" name="LiteralString1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_z0r2kEV2EfGV-efqbksQgw" name="searchUnions">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_6cuhkEV2EfGV-efqbksQgw" name="UnionID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_8YOk8EV2EfGV-efqbksQgw" name="LiteralString1"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="__AkgMEV2EfGV-efqbksQgw" name="union" type="_yMgxIEVxEfGCrvqS349Xiw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ns1gUEV3EfGV-efqbksQgw" name="EditUnion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_QOousEV3EfGV-efqbksQgw" name="UnionID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_VvAnAEV3EfGV-efqbksQgw" name="LiteralInteger1"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_dvKUcEV3EfGV-efqbksQgw" name="application" type="_9EeDEEV6EfGV-efqbksQgw">
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_fMhqUEV3EfGV-efqbksQgw" name="LiteralString1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZRWacEV5EfGV-efqbksQgw" name="searchMembers"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nl620EV6EfGV-efqbksQgw" name="terminateUnion">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_osmLAEV6EfGV-efqbksQgw" name="unionID">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedParameter>
+    </ownedOperation>
+    <nestedClassifier xmi:type="uml:DataType" xmi:id="_HD_AMEV7EfGV-efqbksQgw" name="membershipApplication"/>
   </packagedElement>
 </uml:Model>
